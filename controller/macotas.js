@@ -28,6 +28,8 @@ exports.updatemascota = async(req, res) => {
         raza : req.body.raza
     })
     res.redirect('Mascotas')
+
+    
 }
 
 exports.deletemascota = async(req, res) => {
